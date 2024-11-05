@@ -15,6 +15,7 @@ export class EditorHandlerComponent {
   imageMaxWidth: number = 800;
   imageMaxHeigth: number = 800;
 
+  //Tags: Tinymce 7, image resizing, image ratio, image file size
   init: EditorComponent['init'] = {
     selector: 'textarea',
     plugins: 'lists link image table code help wordcount powerpaste',
